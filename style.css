@@ -15,18 +15,36 @@ html {
     text-decoration: none;
     box-sizing: border-box;
     box-sizing: border-box;
-
+    
 }
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 header {
     background-color: white;
     height:100vh;
     font-family: 'Lato', sans-serif;
+    margin-bottom: 600px;
+    
+}
 
+header h1 {
+    font-size:60px;
+    margin-bottom: 5px;
+    ;
+}
+
+header h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
 }
 
 nav {
@@ -57,8 +75,6 @@ nav {
     height: 50px;
 }
 
-
-
 nav a {
     position: relative;
     color: grey;
@@ -69,7 +85,7 @@ nav a {
 
 }
 
-i {
+nav i {
     position: relative;
     width: 90px;
     height: 50px;
@@ -80,8 +96,6 @@ i {
     left: -15px;
     color: rgb(117, 117, 117);
 }
-
-
 
 .nav-item {
     position: relative;
@@ -124,23 +138,6 @@ nav:hover {
     transform: translate(-50%, -50%);
 }
 
-header h1 {
-    font-size:60px;
-    margin-bottom: 5px;
-    ;
-}
-
-header h2 {
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-header p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-}
-
 .description-container p {
  font-size: 20px;
  margin-top: 20px;
@@ -169,18 +166,14 @@ section {
   }
   
 section .content {  
-      position: sticky;
-      top: 80%;
-      left: 15%;
-      transform: translateY(-50%);
-      margin-left: 50px;
-      margin-top: 300px;
-      margin-bottom: 400px;
-      
-  
+    position: sticky;
+    top: 80%;
+    left: 15%;
+    transform: translateY(-50%);
+    margin-left: 50px;
+    margin-top: 300px;
+    margin-bottom: 200px;
 }
-
-
   
 section .content h2 {
     position: relative;
@@ -191,7 +184,7 @@ section .content h2 {
     transition: 0.5s;
     transform-origin: left;
     transform: scaleX(0);
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -217,10 +210,35 @@ section .content h2[data-scroll="in"]:before {
     transition-delay: 0.5s;
 } 
 
-.content p {
+.content p{
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 1.5em;
+    transition: 1s;
+    opacity: 0;
+    margin-bottom: 500px;
 }
+
+.content p[data-scroll="in"] {
+    opacity: 1;
+    transition: 1s;
+}
+
+.content a i {
+    font-size: 3rem;
+    margin-bottom: 25px;
+    cursor: pointer;
+    z-index: 101;
+    transition: 0.5s;
+}
+
+.content a i:hover {
+    color: rgb(37, 37, 37);
+}
+    
+
+/* img parllax section */
+
+
 
 .image-parallax {
     position: relative;
@@ -231,7 +249,7 @@ section .content h2[data-scroll="in"]:before {
 .image-container {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 20%;
     right: 0;
     bottom: 0;
     display: flex;
@@ -248,7 +266,7 @@ section .content h2[data-scroll="in"]:before {
 
 #image-1 {
     transform: translateY(500px); /* adjust the parallax distance */
-    left: 50%;
+    left: 40%;
     top: 100%;
     height: 600px;
     
@@ -264,21 +282,22 @@ section .content h2[data-scroll="in"]:before {
   
 #image-3 {
     transform: translateY(700px); /* adjust the parallax distance */
-    left: 80%;
+    left: 70%;
     top: 150%;
-    height: 500px;
+    height: 550px;
 }
 
 #image-4 {
     transform: translateY(500px); /* adjust the parallax distance */
-    left: 27%;
+    left: 5%;
     top: 150%;
     height: 600px;
 }
   
 #image-5 {
     transform: translateY(700px); /* adjust the parallax distance */
-    left: 80%;
+    height: 500px;
+    left: 70%;
     top: 80%;
 }
   
@@ -290,13 +309,13 @@ section .content h2[data-scroll="in"]:before {
 }
 #image-7 {
     transform: translateY(700px); /* adjust the parallax distance */
-    left: 40%;
+    left: 35%;
     top: 200%;
     height: 600px;
 }
 #image-8 {
     transform: translateY(700px); /* adjust the parallax distance */
-    left: 43%;
+    left: 40%;
     top: 160%;
     height: 500px;
 }
@@ -351,6 +370,7 @@ footer {
     height: 100%;
     padding: 50px;
     position: relative;
+    width: 100%
 }
 
 footer h3 {
@@ -382,6 +402,7 @@ footer img {
     margin: 0 auto;
     height: 100px;
     top: 20%;
+    
 }
 
 
@@ -418,5 +439,94 @@ footer img {
         padding: 20px;
         font-size: 15px;
     }
+    body {
+        overflow-x: hidden;
+      }
+      #image-1 {
+        transform: translateY(500px); /* adjust the parallax distance */
+        left: 40%;
+        top: 100%;
+        height: 200px;
+        
+    }
+      
+    #image-2 {
+        transform: translateY(700px); /* adjust the parallax distance */
+        left: 45%;
+        top: 250%;
+        height:150px ;
+    
+    }
+      
+    #image-3 {
+        transform: translateY(700px); /* adjust the parallax distance */
+        left: 70%;
+        top: 150%;
+        height: 250px;
+    }
+    
+    #image-4 {
+        transform: translateY(500px); /* adjust the parallax distance */
+        left: -30%;
+        top: 150%;
+        height: 300px;
+    }
+      
+    #image-5 {
+        transform: translateY(700px); /* adjust the parallax distance */
+        height: 300px;
+        left: 60%;
+        top: 80%;
+    }
+      
+    #image-6 {
+        transform: translateY(700px); /* adjust the parallax distance */
+        left: 30%;
+        top: 90%;
+        height: 300px;
+    }
+    #image-7 {
+        transform: translateY(700px); /* adjust the parallax distance */
+        left: 0%;
+        top: 200%;
+        height: 320px;
+    }
+    #image-8 {
+        transform: translateY(700px); /* adjust the parallax distance */
+        left: 0%;
+        top: 150%;
+        height: 200px;
+    }
+    
+    section .content h2{
+        font-size: 25px;
+    }
+    section .content p{
+        font-size: 20px;
+    }
+    section .content {
+        width: 200px;
+        top: 50%;
+    }
+    .image-container{
+        width: 200px;
+        left: 50%;
+    }
+    header {
+        margin-bottom: 300px;
+    }
+    .background h3 {
+        font-size: 150px;
+        letter-spacing: 50px;
+        margin-left: 150px;
+    }
+    .icons i {
+        font-size: 3rem;
+        color: rgb(37, 37, 37);
 
+    }
+    .icons {
+        gap: 40px;
+        top: -100px;
+    }
 }

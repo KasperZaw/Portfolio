@@ -72,5 +72,5 @@ gsap.to("#image-1", {
 
 
   ScrollOut({
-    targets: 'h2'
+    targets: 'h2,p,a, i'
  })
