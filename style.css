@@ -529,4 +529,7 @@ footer img {
         gap: 40px;
         top: -100px;
     }
+    html {
+        overflow-x: hidden;
+    }
 }
