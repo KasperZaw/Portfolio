@@ -163,7 +163,7 @@ section {
     position: relative;
     height: 100vh;
     color: rgb(37, 37, 37);
-    margin-bottom: 500px;
+    margin-bottom: 700px;
   }
   
 section .content {  
@@ -172,8 +172,6 @@ section .content {
     left: 15%;
     transform: translateY(-50%);
     margin-left: 50px;
-    
-   
 }
   
 section .content h2 {
