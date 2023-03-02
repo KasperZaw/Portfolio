@@ -27,7 +27,7 @@ gsap.to("#image-1", {
       trigger: ".image-parallax",
       scrub: true
     },
-    y: -2500 /* reverse the movement */
+    y: -2800 /* reverse the movement */
   });
   
   gsap.to("#image-5", {
@@ -35,7 +35,7 @@ gsap.to("#image-1", {
       trigger: ".image-parallax",
       scrub: true
     },
-    y: -1200 /* reverse the movement */
+    y: -1500 /* reverse the movement */
   });
 
   gsap.to("#image-6", {
