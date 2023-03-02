@@ -15,7 +15,7 @@ html {
     text-decoration: none;
     box-sizing: border-box;
     box-sizing: border-box;
-    
+    list-style-type: none;
 }
 
 html {
@@ -58,7 +58,6 @@ nav {
     transition: width 0.5s linear;
     box-shadow: 0 20px 35x rgba(0, 0, 0, 0.2);
     padding: 10px;
-    
 }
 
 .logo {
