@@ -93,14 +93,14 @@ gsap.to("#image-1", {
     scrollTrigger: {
       scrub: true
     },
-    y: -2500 /* reverse the movement */
+    y: -3500 /* reverse the movement */
   });
 
   gsap.to("#image-15", {
     scrollTrigger: {
       scrub: true
     },
-    y: -3500 /* reverse the movement */
+    y: -2500 /* reverse the movement */
   });
 
   gsap.to("#skill", {
