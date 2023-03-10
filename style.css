@@ -547,7 +547,7 @@ footer img {
     .background h3 {
         font-size: 40px;
         letter-spacing: 50px;
-        margin-left: -560%;
+        margin-left: -700%;
     }
     .icons i {
         font-size: 3rem;
@@ -606,53 +606,53 @@ footer img {
         transform: translateY(700px); /* adjust the parallax distance */
         left: -40%;
         top: 170%;
-        height:200px ;
+        height:250px ;
     
     }
       
     #image-3 {
         transform: translateY(700px); /* adjust the parallax distance */
-        left: 5%;
+        left: 20%;
         top: 120%;
-        height: 160px;
+        height: 200px;
     }
     
     #image-4 {
         transform: translateY(500px); /* adjust the parallax distance */
-        left: -30%;
+        left: -35%;
         top: 200%;
-        height: 400px;
+        height: 450px;
     }
       
     #image-5 {
         transform: translateY(700px); /* adjust the parallax distance */
-        height: 200px;
-        left: -15%;
+        height: 300px;
+        left: -35%;
         top: 130%;
     }
     
     #image-6 {
         transform: translateY(700px); /* adjust the parallax distance */
-        height: 300px;
-        left: 10%;
+        height: 350px;
+        left: -5%;
         top: 160%;
     }
       
     #image-7 {
         transform: translateY(700px); /* adjust the parallax distance */
-        left: -50%;
+        left: -65%;
         top: 140%;
         height: 450px;
     }
     #image-8 {
         transform: translateY(700px); /* adjust the parallax distance */
-        left: 10%;
+        left: 0%;
         top: 310%;
         height: 400px;
     }
     #image-9 {
         transform: translateY(700px); /* adjust the parallax distance */
-        left: 10%;
+        left: 0%;
         top: 170%;
         height: 400px;
     }
@@ -660,39 +660,39 @@ footer img {
     #image-10 {
        height: 400px;
        left: -35%;
-       top: 180%;
+       top: 190%;
     }
     
     #image-11 {
         height: 250px;
         left: -35%;
-        top: 430%;
+        top: 490%;
     }
     
     #image-12 {
         height: 300px;
         left: 5%;
-        top: 340%;
+        top: 360%;
     }
     
     #image-13 {
         height: 450px;
         left: -30%;
-        top: 210%;
+        top: 225%;
         
     }
     
     #image-14 {
         height: 350px;
         left: -35%;
-        top: 410%;
+        top: 460%;
        
     }
     
     #image-15 {
         height: 320px;
         left: -10%;
-        top: 310%;
+        top: 350%;
         
     }
     
