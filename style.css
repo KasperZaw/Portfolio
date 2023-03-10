@@ -155,8 +155,9 @@ nav:hover {
 
 .img-container img {
     height: 500px;
-    border-radius: 50%;
+    border-radius: 50% 50% 50% 50%;
     position: absolute;
+    left: 60%;
 }
 
 /* description */
